@@ -1,8 +1,7 @@
 {
   "name": "Profil Izz Sabdo Negoro",
   "short_name": "Profil Mahasiswa",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3367D6",
