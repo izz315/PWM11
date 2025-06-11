@@ -1,18 +1,19 @@
 {
   "name": "Profil Izz Sabdo Negoro",
   "short_name": "Profil Mahasiswa",
-  "start_url": "index.html",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#DC3444",
   "icons": [
     {
-      "src": "apkicon.jpg",
+      "src": "./apkicon.jpg",
       "sizes": "192x192",
       "type": "image/jpg"
     },
     {
-      "src": "apkicon.jpg",
+      "src": "./apkicon.jpg",
       "sizes": "512x512",
       "type": "image/jpg"
     }
