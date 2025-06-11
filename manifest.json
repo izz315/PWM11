@@ -4,7 +4,7 @@
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#DC4C64",
+  "theme_color": "#dc3444",
   "icons": [
     {
       "src": "apkicon.jpg",
