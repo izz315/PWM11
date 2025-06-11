@@ -4,9 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Profil Mahasiswa</title>
+
+  <!-- Import Bootstrap CSS dari CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Menyertakan file JavaScript eksternal -->
   <script src="./app.js" defer></script> <!-- Ubah ke path relatif dan tambah defer -->
+
+  <!-- Favicon situs -->
   <link rel="icon" type="image/jpg" href="./apkicon.jpg">
+
+  <!-- Manifest untuk dukungan PWA -->
   <link rel="manifest" href="./manifest.json"> <!-- Path relatif -->
 </head>
 <body>
@@ -16,13 +24,13 @@
           <!-- Judul atau logo navbar -->
           <a class="navbar-brand" href="index.html">Profil Mahasiswa</a>
           
-          <!-- Tombol hamburger untuk mobile -->
+          <!-- Tombol hamburger untuk tampilan mobile -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
       
-          <!-- Menu navbar -->
+          <!-- Daftar menu navigasi -->
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
@@ -30,85 +38,99 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
       
-  <!-- Bagian header dengan foto profil dan nama -->
-  <header class="container text-center my-5">
-    <!-- Foto profil, berbentuk bulat dan responsif -->
-    <img src="izz.jpg" class="rounded-circle img-fluid" alt="Foto Profil Mahasiswa" width="200px" height="200px">
-    <h1 class="mt-3">Izz Sabdo Negoro</h1>
-    <p class="text-muted">Informatika | UTDI Yogyakarta</p>
-  </header>
+    <!-- Header dengan foto dan nama mahasiswa -->
+    <header class="container text-center my-5">
+        <!-- Foto profil berbentuk bulat -->
+        <img src="izz.jpg" class="rounded-circle img-fluid" alt="Foto Profil Mahasiswa" width="200px" height="200px">
+        <h1 class="mt-3">Izz Sabdo Negoro</h1>
+        <p class="text-muted">Informatika | UTDI Yogyakarta</p>
+    </header>
 
-  <!-- Section informasi pribadi -->
-  <section class="container">
-    <h3 class="text-center">Informasi Pribadi</h3>
-    <div class="d-flex justify-content-center">
-      <div class="card  py-4 px-4 shadow">
-        <!-- Deskripsi pribadi -->
-        <p class="text" style="text-align: justify;">Saya Izz Sabdo Negoro yang biasa dipanggil Izz adalah mahasiswa prodi Informatika di UTDI Yogyakarta. Saya mahasiswa semester 6 biasa yang sedang mendalami perihal hidup. Saat ini saya tertarik dengan mancing, bersepeda, mendengarkan musik dan terpaksa ngerjain tugas.</p>
-        <p class="text" style="text-align: justify;">Kadang saya mikir, kuliah ini nyata apa cuma side quest dalam hidup saya. Tiap hari berjuang antara deadline dan nongkrong, antara ngoding dan ngopi, antara IPK dan cinta. Saya adalah pejuang WiFi gratis, penikmat senja level 3, dan kadang ngoding cuma buat ngerasain vibes anak-anak sibuk di cafe dengan laptopnya masing-masing.</p>
-        <p class="text" style="text-align: justify;">Saya percaya bahwa hidup adalah tentang balance: antara rebahan dan produktif, antara buka VSCode dan buka TikTok. Saat tidak sedang stress karena tugas, saya biasanya merenung di pojokan sambil bertanya: "Apakah console.log(aku) akan pernah mengerti perasaanku?".</p>
-        <p class="text" style="text-align: justify;">Ke depan, saya berharap bisa berhasil membangun karir dari semua kerja keras saya selama kuliah, atau minimal lulus dengan ucapan "ALHAMDULILLAH GUSTI AKU LULUSS!"</p>
-        <!-- Tautan ke sosial media -->
-        <p class="text-center">Sosial Media :</p>
-        <div class="d-flex justify-content-center gap-5">
-            <a href="https://wa.me/62856002765949"><img src="icons8-whatsapp-50.png" alt="Link Whatsapp" class="img-fluid"></a>
-            <a href="https://www.instagram.com/izxs_n?igsh=bDUyNmg0djYxMWQ3"><img src="icons8-instagram-50.png" alt="Link Instagram" class="img-fluid"></a>
-            <a href="#"><img src="icons8-linkedin-50.png" alt="Link Linkedin" class="img-fluid"></a>
-            <a href="#"><img src="icons8-x-50.png" alt="Link X" class="img-fluid"></a>
-        </div>          
-      </div>
-  </section>
+    <!-- Bagian informasi pribadi -->
+    <section class="container">
+        <h3 class="text-center">Informasi Pribadi</h3>
+        <div class="d-flex justify-content-center">
+            <div class="card py-4 px-4 shadow">
+                <!-- Deskripsi diri mahasiswa -->
+                <p class="text" style="text-align: justify;">Saya Izz Sabdo Negoro ...</p>
+                <p class="text" style="text-align: justify;">Kadang saya mikir ...</p>
+                <p class="text" style="text-align: justify;">Saya percaya bahwa hidup ...</p>
+                <p class="text" style="text-align: justify;">Ke depan, saya berharap ...</p>
+
+                <!-- Ikon tautan sosial media -->
+                <p class="text-center">Sosial Media :</p>
+                <div class="d-flex justify-content-center gap-5">
+                    <a href="https://wa.me/62856002765949"><img src="icons8-whatsapp-50.png" alt="Link Whatsapp" class="img-fluid"></a>
+                    <a href="https://www.instagram.com/izxs_n?igsh=bDUyNmg0djYxMWQ3"><img src="icons8-instagram-50.png" alt="Link Instagram" class="img-fluid"></a>
+                    <a href="#"><img src="icons8-linkedin-50.png" alt="Link Linkedin" class="img-fluid"></a>
+                    <a href="#"><img src="icons8-x-50.png" alt="Link X" class="img-fluid"></a>
+                </div>          
+            </div>
+        </div>
+    </section>
   
-  <!-- Section keterampilan atau skill -->
-  <section class="container my-5">
-    <div class="row">
-        <h3 class="text-center mb-4">Keterampilan</h3>
-        <div class="col-md-3">
-            <div class="card text-center shadow">
-                <img src="" alt="">
-                <div class="card-body">
-                    <h3>JavaScript</h3>
-                    <p>Mampu membuat interaksi dinamis pada halaman web menggunakan JavaScript, termasuk manipulasi DOM, validasi form, serta penggunaan dasar event handling dan API fetch.</p>
+    <!-- Bagian keterampilan (skills) -->
+    <section class="container my-5">
+        <div class="row">
+            <h3 class="text-center mb-4">Keterampilan</h3>
+
+            <!-- Kartu skill JavaScript -->
+            <div class="col-md-3">
+                <div class="card text-center shadow">
+                    <img src="" alt="">
+                    <div class="card-body">
+                        <h3>JavaScript</h3>
+                        <p>Mampu membuat interaksi dinamis ...</p>
+                    </div>
                 </div>
             </div>
+
+            <!-- Kartu skill UI/UX -->
+            <div class="col-md-3">
+                <div class="card text-center shadow">
+                    <img src="" alt="">
+                    <div class="card-body">
+                        <h3>Desain UI/UX</h3>
+                        <p>Memahami prinsip dasar desain ...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kartu skill MySQL -->
+            <div class="col-md-3">
+                <div class="card text-center shadow">
+                    <img src="" alt="">
+                    <div class="card-body">
+                        <h3>Database MySQL</h3>
+                        <p>Terampil dalam membuat dan mengelola ...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kartu skill HTML, CSS -->
+            <div class="col-md-3">
+                <div class="card text-center shadow">
+                    <img src="" alt="">
+                    <div class="card-body">
+                        <h3>HTML, CSS</h3>
+                        <p>Mampu membuat halaman web statis ...</p>
+                    </div>
+                </div>
+            </div>    
         </div>
-        <div class="col-md-3">
-            <div class="card text-center shadow">
-                <img src="" alt="">
-                <div class="card-body">
-                    <h3>Desain UI/UX</h3>
-                    <p>Memahami prinsip dasar desain antarmuka yang menarik dan ramah pengguna, serta berpengalaman menggunakan Figma untuk merancang prototipe aplikasi web dan mobile secara responsif.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card text-center shadow">
-                <img src="" alt="">
-                <div class="card-body">
-                    <h3>Database MySQL</h3>
-                    <p>Terampil dalam membuat dan mengelola database relasional menggunakan MySQL, termasuk perancangan tabel, query SELECT, JOIN, serta operasi CRUD dasar melalui PHPMyAdmin dan terminal.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card text-center shadow">
-                <img src="" alt="">
-                <div class="card-body">
-                    <h3>HTML, CSS</h3>
-                    <p>Mampu membuat halaman web statis yang responsif dengan HTML5 dan CSS3, termasuk penggunaan grid, flexbox, media queries, serta styling bersih yang sesuai standar web modern.</p>
-                </div>
-            </div>
-        </div>    
-      </div>
-    </div>
-  </section>
+    </section>
   
-  <footer class="bg-danger text-center text-white py-3 mt-5">
-    <p>&copy; 2025 Izz Sabdo Negoro</p>
-  </footer>
- <output></output>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <!-- Footer halaman -->
+    <footer class="bg-danger text-center text-white py-3 mt-5">
+        <p>&copy; 2025 Izz Sabdo Negoro</p>
+    </footer>
+
+    <!-- Output element (jika dibutuhkan oleh JavaScript) -->
+    <output></output>
+
+    <!-- Import Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
